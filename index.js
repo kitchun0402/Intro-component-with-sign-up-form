@@ -1,4 +1,4 @@
-$("#register-form").on("submit", function(event) {
+$(".submit-button").on("click", function(event) {
   // Clear all additional html in case an user click the button again.
   $(".form-group .error-msg").remove();
   $(".icon-error").remove();
